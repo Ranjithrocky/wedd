@@ -1,0 +1,26 @@
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    height: 4em;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+.hallimg
+{
+    padding-left: 3em;
+    border: solid black;
+}
+.hallimg img
+{
+    border: solid black 3px;
+    padding: 2px;
+}

@@ -7,6 +7,7 @@ import { SignupComponent } from './Auth/signup/signup.component';
 import { HallsComponent } from './halls/halls.component';
 import { CateringComponent } from './catering/catering.component';
 import { PhotographersComponent } from './photographers/photographers.component';
+import { HallvComponent } from './halls/hallv/hallv.component';
 
 const routes: Routes = [
   { path: "",component: HomeComponent, pathMatch: 'full', },
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path:"blogin", component:BsignupComponent},
   {path:"halls",component: HallsComponent},
   {path:"catering",component:CateringComponent},
-  {path:"photographer",component:PhotographersComponent}
+  {path:"photographer",component:PhotographersComponent},
+  {path:"hallv", component:HallvComponent}
 ];
 
 @NgModule({
